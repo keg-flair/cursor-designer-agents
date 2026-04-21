@@ -10,12 +10,13 @@ These agents are optimized for **screenshots**, **Figma links/component names**,
 - **Rules (always-on guidance)**: `.cursor/rules/` — persistent Cursor rules for consistent outputs
 - **Commands (copy/paste prompts)**: `docs/COMMANDS.md`
 - **Templates (fillable outlines)**: `docs/templates/`
+- **Golden examples (reference outputs)**: `docs/examples/`
 - **Docs index**: `docs/README.md`
 
 ## Quick start (use in any repo)
 
 1. Copy this repo’s `.cursor/` folder into your product/design repo (includes **skills** under `.cursor/skills/` and **rules** under `.cursor/rules/`).
-2. Optional: bookmark `docs/COMMANDS.md` and keep `docs/templates/` handy for repeatable outputs.
+2. Optional: bookmark `docs/COMMANDS.md`, keep `docs/templates/` handy, and skim `docs/examples/` for output shape.
 3. In Cursor, ask a task in plain language and attach screenshots/links/metrics as needed.
 
 Example prompts:
@@ -59,6 +60,7 @@ Each skill is a folder under `.cursor/skills/<skill-name>/` with a `SKILL.md` co
 - Usage tips and example workflows: `docs/USAGE.md`
 - Command-style prompts: `docs/COMMANDS.md`
 - Fillable templates: `docs/templates/`
+- Golden examples: `docs/examples/`
 - Full skills catalog: `docs/SKILLS.md`
 - How to author a new skill: `docs/WRITING_SKILLS.md`
 

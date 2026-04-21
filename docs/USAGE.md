@@ -6,6 +6,10 @@
 - **Figma links / component names**: paste the URL and call out the frame/component name.
 - **Analytics**: paste the funnel steps, timeframe, and segment. If definitions are ambiguous, paste the exact metric definitions.
 
+## Golden examples (calibration)
+
+If you want outputs to match a consistent “house style,” skim `docs/examples/` and ask the agent to match the structure of the relevant file (for example, `docs/examples/ux-audit.md`).
+
 ## Prompt patterns that work well
 
 ### UX audit (screenshots/flow)
