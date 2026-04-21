@@ -50,3 +50,15 @@ These are “command-style” prompts you can paste into Cursor. Attach screensh
 
 - “Based on this funnel/dashboard, list instrumentation gaps preventing confident conclusions. Recommend specific events/properties to add and what each would answer.”
 
+### Design spec commands
+
+**Write a design spec (engineering-ready)**
+
+- “Write a design spec for `FEATURE_OR_COMPONENT`. Include assumptions, scope, anatomy/steps, variants, states, interactions, content guidelines, edge cases, accessibility, token hooks, open questions, and a test plan.”
+
+### Competitive audit commands
+
+**Competitive design audit (decision-oriented)**
+
+- “Run a competitive design audit for `PATTERN_OR_FLOW`. Compare 3–5 relevant products plus one best-in-class reference. Summarize market patterns, trade-offs, opportunities, and give concrete recommendations. Include what to capture next if evidence is missing.”
+

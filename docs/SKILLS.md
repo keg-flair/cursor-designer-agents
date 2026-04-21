@@ -44,3 +44,17 @@ This repo ships Cursor project skills under `.cursor/skills/`.
 - **Output**: ranked hypotheses, follow-up analyses, instrumentation gaps
 - **Golden example**: `docs/examples/analytics-insights.md`
 
+## design-specs-writer
+
+- **Use when**: “write a spec”, “handoff notes”, “document this component/flow”, “spec out this feature”
+- **Inputs**: component/feature context, platform(s), constraints, link/screenshot (optional)
+- **Output**: engineering-ready spec (states/behaviors/edge cases/a11y/token hooks/open questions)
+- **Golden example**: `docs/examples/design-specs-writer.md`
+
+## competitive-design-audit
+
+- **Use when**: competitor comparison, teardown, benchmarking a feature/flow/pattern
+- **Inputs**: scope + decision to inform, comparator list (or permission to propose), any evidence links/screens
+- **Output**: comparative audit (patterns/trade-offs/opportunities/recommendations + what to capture next)
+- **Golden example**: `docs/examples/competitive-design-audit.md`
+
