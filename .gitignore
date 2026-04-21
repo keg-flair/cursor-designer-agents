@@ -5,3 +5,7 @@ dist/
 build/
 .env
 
+# Local imports / staging artifacts
+_imports/
+_tmp_claude_repo/
+
