@@ -1,6 +1,9 @@
 # Skills catalog
 
-This repo ships Cursor project skills under `.cursor/skills/`.
+This repo ships:
+
+- **Cursor project skills** under `.cursor/skills/`
+- **Claude Project skills** under `skills/`
 
 ## ux-audit
 
@@ -57,4 +60,28 @@ This repo ships Cursor project skills under `.cursor/skills/`.
 - **Inputs**: scope + decision to inform, comparator list (or permission to propose), any evidence links/screens
 - **Output**: comparative audit (patterns/trade-offs/opportunities/recommendations + what to capture next)
 - **Golden example**: `docs/examples/competitive-design-audit.md`
+
+## figma-master
+
+- **Use when**: generating/modifying inside Figma and you want the agent to choose the right workflow
+- **Inputs**: Figma link with `node-id` (preferred), or a clear target selection + goal
+- **Output**: chosen path + exact next tool calls + stop conditions
+
+## figma-triage
+
+- **Use when**: the Figma request is ambiguous or targeting isn’t clear yet
+- **Inputs**: Figma link (with `node-id`), desired changes, constraints
+- **Output**: classification + minimal next calls (metadata/screenshot/discovery) before any writes
+
+## figma-design-system-discovery
+
+- **Use when**: you need to inventory components/variables/styles to avoid hardcoding
+- **Inputs**: file key / node target or reference screen name
+- **Output**: design system inventory + recommended next workflow
+
+## figma-cleanup-and-resume
+
+- **Use when**: multi-step Figma work must be resumable/reversible and avoid duplicated screens
+- **Inputs**: runId (if resuming), intended scope, target file/page
+- **Output**: tagging + ledger strategy + safe cleanup constraints
 

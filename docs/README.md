@@ -1,6 +1,7 @@
 # Docs
 
 - `USAGE.md`: how to prompt these agents effectively
+- `WHERE_TO_USE.md`: where/how to use Cursor vs Claude skills
 - `COMMANDS.md`: copy/paste command-style prompts
 - `templates/`: fillable outlines for common deliverables
 - `examples/`: golden examples (reference outputs for tone + structure)
@@ -10,5 +11,6 @@
 Related repo paths:
 
 - Skills: `../.cursor/skills/`
+- Claude skills: `../skills/`
 - Rules: `../.cursor/rules/`
 

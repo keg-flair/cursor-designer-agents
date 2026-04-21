@@ -93,6 +93,7 @@ Claude Project skills follow the same `SKILL.md` pattern under `skills/<skill-na
 ## Docs
 
 - Docs index: `docs/README.md`
+- Where to use what (Cursor vs Claude): `docs/WHERE_TO_USE.md`
 - Usage tips and example workflows: `docs/USAGE.md`
 - Command-style prompts: `docs/COMMANDS.md`
 - Fillable templates: `docs/templates/`
