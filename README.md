@@ -1,4 +1,4 @@
-# Designer Agents (Cursor Skills)
+# Designer Agents (Claude + Cursor Skills)
 
 A small suite of **Cursor project skills** for Senior Product Designers working on **UX/UI** and **design systems**.
 
@@ -6,18 +6,24 @@ These agents are optimized for **screenshots**, **Figma links/component names**,
 
 ## Repository
 
-- **GitHub**: https://github.com/keg-flair/cursor-designer-agents
+- **GitHub**: `https://github.com/keg-flair/claude-design-agents`
 
 ## What’s in this repo
 
-- **Skills (agents)**: `.cursor/skills/` — each skill is a `SKILL.md` playbook
+- **Claude skills**: `skills/` — Claude-oriented skill folders (`skills/<skill-name>/SKILL.md`)
+- **Cursor skills (agents)**: `.cursor/skills/` — Cursor project skills (`.cursor/skills/<skill-name>/SKILL.md`)
 - **Rules (always-on guidance)**: `.cursor/rules/` — persistent Cursor rules for consistent outputs
 - **Commands (copy/paste prompts)**: `docs/COMMANDS.md`
 - **Templates (fillable outlines)**: `docs/templates/`
 - **Golden examples (reference outputs)**: `docs/examples/`
 - **Docs index**: `docs/README.md`
 
-## Quick start (use in any repo)
+## Quick start (Claude)
+
+1. Use the skills in `skills/` (start with `skills/README.md`).
+2. In Claude, add/upload each skill folder (or your `.skill` exports).
+
+## Quick start (Cursor, use in any repo)
 
 1. Copy this repo’s `.cursor/` folder into your product/design repo (includes **skills** under `.cursor/skills/` and **rules** under `.cursor/rules/`).
 2. Optional: bookmark `docs/COMMANDS.md`, keep `docs/templates/` handy, and skim `docs/examples/` for output shape.
@@ -30,6 +36,8 @@ Example prompts:
 - “Given this funnel drop-off, propose UX hypotheses and what to measure next.”
 
 ## Skill catalog
+
+- **Claude skills**: `skills/README.md`
 
 - **UX Audit** (`.cursor/skills/ux-audit/`)
   - Use for: heuristic review, friction analysis, flow critique
