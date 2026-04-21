@@ -4,10 +4,19 @@ A small suite of **Cursor project skills** for Senior Product Designers working 
 
 These agents are optimized for **screenshots**, **Figma links/component names**, and **lightweight analytics**, and they output artifacts that are easy to paste into **Figma pages**, **Notion**, or **design-system docs**.
 
+## What’s in this repo
+
+- **Skills (agents)**: `.cursor/skills/` — each skill is a `SKILL.md` playbook
+- **Rules (always-on guidance)**: `.cursor/rules/` — persistent Cursor rules for consistent outputs
+- **Commands (copy/paste prompts)**: `docs/COMMANDS.md`
+- **Templates (fillable outlines)**: `docs/templates/`
+- **Docs index**: `docs/README.md`
+
 ## Quick start (use in any repo)
 
-1. Copy this repo’s `.cursor/` folder into your product/design repo.
-2. In Cursor, ask a task in plain language and attach screenshots/links/metrics as needed.
+1. Copy this repo’s `.cursor/` folder into your product/design repo (includes **skills** under `.cursor/skills/` and **rules** under `.cursor/rules/`).
+2. Optional: bookmark `docs/COMMANDS.md` and keep `docs/templates/` handy for repeatable outputs.
+3. In Cursor, ask a task in plain language and attach screenshots/links/metrics as needed.
 
 Example prompts:
 - “Audit this onboarding flow for friction. Prioritize P0/P1 issues and propose fixes.”
@@ -46,7 +55,10 @@ Each skill is a folder under `.cursor/skills/<skill-name>/` with a `SKILL.md` co
 
 ## Docs
 
+- Docs index: `docs/README.md`
 - Usage tips and example workflows: `docs/USAGE.md`
+- Command-style prompts: `docs/COMMANDS.md`
+- Fillable templates: `docs/templates/`
 - Full skills catalog: `docs/SKILLS.md`
 - How to author a new skill: `docs/WRITING_SKILLS.md`
 
