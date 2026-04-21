@@ -4,6 +4,10 @@ A small suite of **Cursor project skills** for Senior Product Designers working 
 
 These agents are optimized for **screenshots**, **Figma links/component names**, and **lightweight analytics**, and they output artifacts that are easy to paste into **Figma pages**, **Notion**, or **design-system docs**.
 
+## Repository
+
+- **GitHub**: https://github.com/keg-flair/cursor-designer-agents
+
 ## What’s in this repo
 
 - **Skills (agents)**: `.cursor/skills/` — each skill is a `SKILL.md` playbook
