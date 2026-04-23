@@ -15,3 +15,4 @@ These files are **reference outputs** for calibrating tone, structure, and depth
 - `design-system-governance.md`
 - `research-synthesis.md`
 - `analytics-insights.md`
+- `empty-states.md`

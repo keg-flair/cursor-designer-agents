@@ -50,6 +50,12 @@ These are “command-style” prompts you can paste into Cursor or Claude. Attac
 
 - “Based on this funnel/dashboard, list instrumentation gaps preventing confident conclusions. Recommend specific events/properties to add and what each would answer.”
 
+### Empty/loading/error states commands (`empty-states`)
+
+**State plan (matrix + copy + recovery)**
+
+- “Create an empty/loading/error/success state plan for `SURFACE`. Include a state taxonomy, state matrix, copy patterns, recovery actions, accessibility notes, token hooks, and a QA checklist.”
+
 ### Design spec commands (`design-specs-writer`)
 
 **Write a design spec (engineering-ready)**

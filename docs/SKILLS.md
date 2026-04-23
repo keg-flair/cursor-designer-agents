@@ -65,6 +65,13 @@ Most skills exist in both places; `.cursor/skills/` is what you copy into a Curs
 - **Output**: ranked hypotheses (mechanism + tests) + instrumentation gaps + next analyses
 - **Golden example**: `docs/examples/analytics-insights.md`
 
+## empty-states
+
+- **Use when**: empty/loading/error/success state design for a screen, flow, or component
+- **Inputs**: surface + goal, what “empty” means, constraints (a11y/localization/offline)
+- **Output**: state taxonomy + state matrix + copy patterns + recovery policy + token hooks + QA checklist
+- **Golden example**: `docs/examples/empty-states.md`
+
 ## Figma workflow skills (Cursor-only)
 
 These exist under `.cursor/skills/figma-*` and are designed for Cursor + Figma MCP workflows.
