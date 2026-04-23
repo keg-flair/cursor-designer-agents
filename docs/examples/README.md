@@ -4,7 +4,7 @@ These files are **reference outputs** for calibrating tone, structure, and depth
 
 ## How to use them
 
-- When prompting in Cursor, add: “Match the structure and rigor of `docs/examples/<skill>.md`.”
+- When prompting in Cursor or Claude, add: “Match the structure and rigor of `docs/examples/<skill>.md`.”
 - When editing a skill, compare your changes against the golden example to avoid regressions.
 
 ## Files

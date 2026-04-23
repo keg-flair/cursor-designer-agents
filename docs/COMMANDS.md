@@ -1,8 +1,8 @@
 ## Commands (copy/paste prompts)
 
-These are “command-style” prompts you can paste into Cursor. Attach screenshots, links, or metrics as needed.
+These are “command-style” prompts you can paste into Cursor or Claude. Attach screenshots, links, or context as needed.
 
-### UX audit commands
+### UX audit commands (`ux-audit`)
 
 **Audit screens (P0–P2 + fixes)**
 
@@ -12,13 +12,13 @@ These are “command-style” prompts you can paste into Cursor. Attach screensh
 
 - “Assume first-time user. Audit this flow. Identify moment-of-truth decision points, likely churn points, and fixes. Include quick wins and a validation plan.”
 
-### Accessibility commands
+### Accessibility commands (`accessibility-review`)
 
 **A11y review (must/should/nice + checklist)**
 
 - “Do an accessibility review of these screens. Return must-fix/should-fix/nice-to-have issues, plus a regression checklist (keyboard, focus, labels, contrast, motion).”
 
-### Component spec commands
+### Component spec commands (`component-spec-writer`)
 
 **Spec a component (variants/states/token hooks/QA)**
 
@@ -28,19 +28,19 @@ These are “command-style” prompts you can paste into Cursor. Attach screensh
 
 - “Create a compact variant matrix for `COMPONENT_NAME`. Include states and invalid combinations. Keep it Figma-ready.”
 
-### Design system governance commands
+### Design system governance commands (`design-system-governance`)
 
 **Governance starter pack**
 
 - “Create a design system governance starter pack: contribution workflow, decision record template, and release notes template. Keep it lightweight and practical.”
 
-### Research synthesis commands
+### Research synthesis commands (`research-synthesis`)
 
 **Synthesize notes (themes → insights → opportunities)**
 
 - “Cluster these notes into themes, produce insights and opportunities, and include evidence snippets. Turn insights into falsifiable hypotheses and define success signals.”
 
-### Analytics → UX insights commands
+### Analytics → UX insights commands (`analytics-insights`)
 
 **Funnel leak hypotheses (ranked + fastest tests)**
 
@@ -50,13 +50,13 @@ These are “command-style” prompts you can paste into Cursor. Attach screensh
 
 - “Based on this funnel/dashboard, list instrumentation gaps preventing confident conclusions. Recommend specific events/properties to add and what each would answer.”
 
-### Design spec commands
+### Design spec commands (`design-specs-writer`)
 
 **Write a design spec (engineering-ready)**
 
 - “Write a design spec for `FEATURE_OR_COMPONENT`. Include assumptions, scope, anatomy/steps, variants, states, interactions, content guidelines, edge cases, accessibility, token hooks, open questions, and a test plan.”
 
-### Competitive audit commands
+### Competitive audit commands (`competitive-design-audit`)
 
 **Competitive design audit (decision-oriented)**
 

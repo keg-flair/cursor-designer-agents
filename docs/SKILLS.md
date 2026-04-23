@@ -3,49 +3,9 @@
 This repo ships:
 
 - **Cursor project skills** under `.cursor/skills/`
-- **Claude Project skills** under `skills/`
+- **Claude-compatible skills** under `skills/`
 
-## ux-audit
-
-- **Use when**: UX review, usability issues, friction analysis, “audit these screens”
-- **Inputs**: screenshots/flow, platform, primary user goal, constraints, success metric
-- **Output**: prioritized findings (P0–P2), quick wins, open questions, validation plan
-- **Golden example**: `docs/examples/ux-audit.md`
-
-## accessibility-review
-
-- **Use when**: WCAG, contrast, keyboard/focus, screen readers, inclusive design
-- **Inputs**: platform, screenshots/flow, target standard (optional)
-- **Output**: must-fix/should-fix/nice-to-have + regression checklist
-- **Golden example**: `docs/examples/accessibility-review.md`
-
-## design-system-governance
-
-- **Use when**: design system governance, contribution workflow, releases, standards
-- **Inputs**: current artifacts, consumers, pain points, release model
-- **Output**: contribution workflow template, decision record template, release notes template
-- **Golden example**: `docs/examples/design-system-governance.md`
-
-## component-spec-writer
-
-- **Use when**: component docs, variants, states, token hooks, “component API”
-- **Inputs**: component name/purpose, use cases/non-goals, platforms, theming needs
-- **Output**: anatomy + variants/states + token hooks + QA checklist
-- **Golden example**: `docs/examples/component-spec-writer.md`
-
-## research-synthesis
-
-- **Use when**: interview notes, usability findings, survey summaries, synthesis asks
-- **Inputs**: study goal, participants/context, raw notes, constraints
-- **Output**: themes → insights → opportunities, evidence snippets, next steps
-- **Golden example**: `docs/examples/research-synthesis.md`
-
-## analytics-insights
-
-- **Use when**: funnel drop-off, event metrics, dashboards, “what do these numbers mean?”
-- **Inputs**: definitions, timeframe, segments, funnel steps, screenshots/flow
-- **Output**: ranked hypotheses, follow-up analyses, instrumentation gaps
-- **Golden example**: `docs/examples/analytics-insights.md`
+Most skills exist in both places; `.cursor/skills/` is what you copy into a Cursor repo, and `skills/` is the tool-agnostic version for Claude Projects.
 
 ## design-specs-writer
 
@@ -61,27 +21,45 @@ This repo ships:
 - **Output**: comparative audit (patterns/trade-offs/opportunities/recommendations + what to capture next)
 - **Golden example**: `docs/examples/competitive-design-audit.md`
 
-## figma-master
+## ux-audit
 
-- **Use when**: generating/modifying inside Figma and you want the agent to choose the right workflow
-- **Inputs**: Figma link with `node-id` (preferred), or a clear target selection + goal
-- **Output**: chosen path + exact next tool calls + stop conditions
+- **Use when**: heuristic review, friction analysis, flow critique
+- **Inputs**: screenshots/recording (best), goal + success definition, constraints
+- **Output**: prioritized findings (P0–P2), concrete fixes, quick wins, validation plan
+- **Golden example**: `docs/examples/ux-audit.md`
 
-## figma-triage
+## accessibility-review
 
-- **Use when**: the Figma request is ambiguous or targeting isn’t clear yet
-- **Inputs**: Figma link (with `node-id`), desired changes, constraints
-- **Output**: classification + minimal next calls (metadata/screenshot/discovery) before any writes
+- **Use when**: WCAG-informed review, “is this accessible?”, accessibility regression checklist
+- **Inputs**: platform + target standard, screenshots showing focus/error states if possible
+- **Output**: must-fix/should-fix/nice-to-have issues + regression checklist + verification plan
+- **Golden example**: `docs/examples/accessibility-review.md`
 
-## figma-design-system-discovery
+## component-spec-writer
 
-- **Use when**: you need to inventory components/variables/styles to avoid hardcoding
-- **Inputs**: file key / node target or reference screen name
-- **Output**: design system inventory + recommended next workflow
+- **Use when**: documenting/spec’ing a reusable design system component
+- **Inputs**: component purpose + platforms + theming constraints + primary use cases
+- **Output**: component spec (anatomy/variants/states/behavior/content/token hooks/a11y/QA)
+- **Golden example**: `docs/examples/component-spec-writer.md`
 
-## figma-cleanup-and-resume
+## design-system-governance
 
-- **Use when**: multi-step Figma work must be resumable/reversible and avoid duplicated screens
-- **Inputs**: runId (if resuming), intended scope, target file/page
-- **Output**: tagging + ledger strategy + safe cleanup constraints
+- **Use when**: contribution workflow, approvals, breaking-change management, release notes templates
+- **Inputs**: consumer teams + repo/release model + current pain points
+- **Output**: governance starter pack (workflow + decision record + release notes templates)
+- **Golden example**: `docs/examples/design-system-governance.md`
+
+## research-synthesis
+
+- **Use when**: turning raw notes into themes → insights → opportunities
+- **Inputs**: study goal, participants/segment, verbatim snippets
+- **Output**: evidence-backed synthesis + hypotheses + success signals + follow-ups
+- **Golden example**: `docs/examples/research-synthesis.md`
+
+## analytics-insights
+
+- **Use when**: funnel/event drop-offs need UX hypotheses + next analyses
+- **Inputs**: funnel steps + definitions + timeframe + segment
+- **Output**: ranked hypotheses (mechanism + tests) + instrumentation gaps + next analyses
+- **Golden example**: `docs/examples/analytics-insights.md`
 
