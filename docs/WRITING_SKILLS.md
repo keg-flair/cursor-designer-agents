@@ -12,6 +12,19 @@ Create:
 .cursor/skills/<skill-name>/SKILL.md
 ```
 
+If a skill is tool-agnostic and useful outside Cursor, also mirror it in:
+
+```
+skills/<skill-name>/SKILL.md
+```
+
+## Source of truth
+
+- **Primary**: `.cursor/skills/` + `.cursor/rules/` (Cursor behavior and enforcement)
+- **Mirror**: `skills/` (Claude-compatible copies)
+
+When you update a shared skill, update both copies (or intentionally document why they differ).
+
 ## `SKILL.md` checklist
 
 Include:

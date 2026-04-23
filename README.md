@@ -1,4 +1,4 @@
-# Designer Agents (Cursor Skills)
+# Cursor Designer Agents
 
 A small suite of **Cursor-first (Claude-compatible)** skills for Senior Product Designers working on **UX/UI** and **design systems**.
 
@@ -18,6 +18,11 @@ These agents are optimized for **screenshots**, **Figma links/component names**,
 - **Golden examples (reference outputs)**: `docs/examples/`
 - **Docs index**: `docs/README.md`
 - **House style**: `docs/HOUSE_STYLE.md`
+
+## Source of truth (important)
+
+- **Canonical definitions live in** `.cursor/skills/` and `.cursor/rules/`.
+- The `skills/` folder contains **Claude-compatible mirrors** of the overlapping skills. Keep them in sync when you change shared skills.
 
 ## Quick start (Cursor, use in any repo)
 
