@@ -7,6 +7,8 @@ This repo ships:
 
 Most skills exist in both places; `.cursor/skills/` is what you copy into a Cursor repo, and `skills/` contains Claude-compatible variants. They may intentionally diverge.
 
+## General UX / design system skills (Cursor + Claude-compatible)
+
 ## design-specs-writer
 
 - **Use when**: “write a spec”, “handoff notes”, “document this component/flow”, “spec out this feature”
@@ -62,4 +64,32 @@ Most skills exist in both places; `.cursor/skills/` is what you copy into a Curs
 - **Inputs**: funnel steps + definitions + timeframe + segment
 - **Output**: ranked hypotheses (mechanism + tests) + instrumentation gaps + next analyses
 - **Golden example**: `docs/examples/analytics-insights.md`
+
+## Figma workflow skills (Cursor-only)
+
+These exist under `.cursor/skills/figma-*` and are designed for Cursor + Figma MCP workflows.
+
+## figma-master
+
+- **Use when**: you want the agent to choose the right Figma workflow (generate vs edit vs discovery)
+- **Inputs**: Figma link (preferably with `node-id`) + desired outcome + constraints
+- **Output**: routed workflow + next actions + stop conditions
+
+## figma-triage
+
+- **Use when**: Figma request is ambiguous or targeting isn’t clear yet
+- **Inputs**: Figma link (with `node-id` if possible), desired changes, constraints
+- **Output**: clarified scope + minimal next steps before any writes
+
+## figma-design-system-discovery
+
+- **Use when**: you need to inventory components/variables/styles to avoid hardcoding
+- **Inputs**: file key / link + reference screen/component name (if any)
+- **Output**: design system inventory + recommended next workflow
+
+## figma-cleanup-and-resume
+
+- **Use when**: multi-step Figma work must be resumable/reversible without duplicates
+- **Inputs**: runId (if resuming), intended scope, target file/page
+- **Output**: tagging + ledger strategy + safe cleanup constraints
 
